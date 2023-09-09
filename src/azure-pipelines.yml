@@ -73,8 +73,8 @@ stages:
     - task: UseDotNet@2
       inputs:
         packageType: 'sdk'
-        version: '7.0.305'
-      displayName: Instalar SDK do .NET 7.0.305
+        version: '7.0.400'
+      displayName: Instalar SDK do .NET 7.0.400
     - script: |
         echo '*** Versão assumida como default para o .NET ***'
         dotnet --version
